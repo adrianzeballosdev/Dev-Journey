@@ -1,2 +1,2 @@
 # Dev-Journey
-Meus projetos Web durante a jornada de Dev!
+Meu primeiro portifólio durante a jornada de Dev, com base no curso do Alura.
