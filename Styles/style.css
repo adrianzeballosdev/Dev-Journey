@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
+:root{
+  --cor-primaria:#060606;
+  --cor-secundaria: #FFFFFF;
+  --cor-terciaria: #22D4FD;
+}
 * {
     margin: 0;
     padding: 0;
@@ -11,8 +16,8 @@ body {
     display: flex;
     justify-content: center;
     box-sizing: content-box;
-    background-color: #060606;
-    color: #FFFFFF;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
     flex-direction: column;
 }
 
@@ -24,10 +29,11 @@ body {
 }
 
 .cabecalho a {
+  text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 600;
-    color: #22D4FD;
+    color: var(--cor-terciaria);
 }
 
 
@@ -35,7 +41,7 @@ body {
     align-self: center;
     width: 75%;
     padding: 5% 8% 0% 8%;
-    color: #FFFFFF;
+    color: var(--cor-secundaria);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -60,11 +66,11 @@ body {
 }
 
 .apresentacao__conteudo__titulo__destaque {
-    color: #22D4FD;
+    color: var(--cor-terciaria);
 }
 
 .foto {
-    box-shadow: 5px -5px 3px #22D4FD;
+    box-shadow: 5px -5px 3px var(--cor-terciaria);
     width: 350px;
     border-radius: 10px;
 }
@@ -89,10 +95,10 @@ body {
     align-items: center;
     justify-content: space-evenly;
     text-decoration: none;
-    border: 2px solid #22D4FD;
+    border: 2px solid var(--cor-terciaria);
     border-radius: 15px;
     padding: 15px 45px;
-    background-color: #060606;
+    background-color: var(--cor-primaria);
     color: #f6f6f6;
     font-size: large;
     cursor: pointer;
@@ -108,8 +114,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     font-weight: 400;
-    color: #060606;
-    background-color: #22D4FD;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
     padding: 3%;
     text-align: center;
 }
